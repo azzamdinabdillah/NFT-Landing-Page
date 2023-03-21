@@ -49,7 +49,7 @@ const ItemsSection = () => {
           </div>
 
           <div className="mt-6 flex justify-between items-center">
-            <button className="bg-primary-color py-3 px-6 lg:px-14 text-white font-medium rounded-2xl">
+            <button className="bg-button-color py-3 px-6 lg:px-14 text-white font-medium rounded-2xl">
               Place a Bid
             </button>
             <button className="bg-black bg-opacity-25 py-3 px-6 lg:px-14 text-white font-medium rounded-2xl border-2 border-white">
