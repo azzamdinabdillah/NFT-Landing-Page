@@ -1,5 +1,7 @@
+import CategoriesSection from "./pages/CategoriesSection"
 import HeroSection from "./pages/HeroSection"
 import ItemsSection from "./pages/ItemsSection"
+import SellerSection from "./pages/SellerSection"
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <div className="App bg-black pb-40">
       <HeroSection/>
       <ItemsSection/>
+      <SellerSection/>
+      <CategoriesSection/>
     </div>
   )
 }
