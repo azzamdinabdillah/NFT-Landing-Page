@@ -1,22 +1,25 @@
-import Navbar from "./components/Navbar"
-import CategoriesSection from "./pages/CategoriesSection"
-import Footer from "./pages/Footer"
-import HeroSection from "./pages/HeroSection"
-import ItemsSection from "./pages/ItemsSection"
-import SellerSection from "./pages/SellerSection"
+import Navbar from "./components/Navbar";
+import CategoriesSection from "./pages/CategoriesSection";
+import Footer from "./pages/Footer";
+import HeroSection from "./pages/HeroSection";
+import ItemsSection from "./pages/ItemsSection";
+import SellerSection from "./pages/SellerSection";
 
 function App() {
-
   return (
     <div className="App bg-black">
-      <Navbar/>
-      <HeroSection/>
-      <ItemsSection/>
-      <SellerSection/>
-      <CategoriesSection/>
-      <Footer/>
+      <Navbar />
+      <HeroSection />
+
+      <div className="max-w-[1600px] mx-auto">
+        <ItemsSection />
+        <SellerSection />
+        <CategoriesSection />
+      </div>
+
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
